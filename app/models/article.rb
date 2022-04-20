@@ -5,4 +5,5 @@ class Article < ApplicationRecord
 
     scope :active, 			 -> { where('active = ?', true) }
     scope :alphabetical, -> { order('title') }
+    #random comment
 end
